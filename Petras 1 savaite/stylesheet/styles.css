@@ -214,6 +214,10 @@ input[type="reset"]{
 }
 /*Media grids according to screen resolution*/
 
+.first_section{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 @media screen and (min-width: 600px) {
 .major{
