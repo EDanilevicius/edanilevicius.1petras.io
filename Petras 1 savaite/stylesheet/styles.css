@@ -1,0 +1,227 @@
+@import url("normalize.css");
+
+body{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.site{
+    align-items: center;
+    vertical-align: center;
+    color: #ffff;
+}
+
+.header{
+    background-image: url("banner.jpg");
+    background-size: cover;
+}
+.inner{
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 400px;
+    padding-left: 10px;
+}
+
+.inner:hover{
+    background-color: transparent;
+    transition: background-color 2s;
+}
+
+.logo img{
+    width: 50px;
+}
+
+h1{
+    margin-bottom: 0px;
+    color: #ffff;
+}
+h2{
+    margin-bottom: 0px; 
+    margin-top: 75px;
+    position: relative;
+}
+
+.Title{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-top: 20%;
+}
+
+.subtitle{
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    color: #ffff;
+}
+
+.actions{
+    background-color: none;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.actions a {
+    color: inherit;
+    text-decoration: none;
+} 
+/*Antra skiltis*/
+.major{
+    background-image: url("pic01.jpg");
+    background-size: cover;
+}
+.inner1{
+    background-color: rgba(240, 8, 8, 0.4);
+    padding-left: 10px;
+    height: 200px;
+}
+
+.inner1:hover{
+    background-color: transparent;
+    transition: background-color 2s;
+}
+
+.Title1{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+/*Trecia skiltis*/
+.second{
+
+    background-image: url("pic02.jpg");
+
+}
+.inner2{
+    background-color: rgba(38, 248, 10, 0.4);
+    padding-left: 10px;
+    height: 200px;
+}
+
+.inner2:hover{
+    background-color: transparent;
+    transition: background-color 2s;
+}
+
+/*Ketvirta skiltis*/
+.third{
+    background-image: url("pic03.jpg");
+}
+.inner3{
+    background-color: rgba(24, 78, 226, 0.4);
+    padding-left: 10px;
+    height: 200px;
+}
+
+.inner3:hover{
+    background-color: transparent;
+    transition: background-color 2s;
+}
+/*Penkta skiltis*/
+.fourth{
+    background-image: url("pic04.jpg");
+}
+.inner4{
+    background-color: rgba(200, 243, 7, 0.4);
+    padding-left: 10px;
+    height: 200px;
+}
+
+.inner4:hover{
+    background-color: transparent;
+    transition: background-color 2s;
+}
+/*Article*/
+article{
+    background-color: #242943;
+    padding-left: 10px;
+    min-height: 400px;
+}
+/*Input box*/
+.inputbox{
+    align-items: center;
+    vertical-align: center;
+    background-color: #22263a;
+    color: #ffff;
+    border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+    overflow-x: hidden;
+}
+
+.inputbox input, .inputbox textarea{
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+}
+
+.buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul.buttons li{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+input[type="submit"].primary{
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #242943;
+}
+input[type="submit"]{
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 3.5em;
+}
+input[type="submit"].primary:hover{
+    background-color: #9bf1ff;
+    color: #242943 !important;
+}
+
+input[type="reset"]:hover{
+    background-color: #9bf1ff;
+}
+
+input[type="reset"]{
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 3.5em;
+    background-color: transparent;
+    color: #ffffff;
+    box-shadow: inset 0 0 0 2px #ffffff;
+}
+/*Media grids according to screen resolution*/
+
+
+@media screen and (min-width: 600px) {
+.major{
+    width: 50%;
+}
+}
+
+@media screen and (min-width: 600px) {
+    .second_section{
+        width: 50%;
+    }
